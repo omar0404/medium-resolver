@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Medium-resolver-chrome-extension",
+  "description": "unblocks medium.com",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
